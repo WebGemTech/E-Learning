@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Hey! Man</h1>
+<h1>Hey Checkout WebGem Tech!</h1>
 
 <?php
 echo "This is Hey!";
