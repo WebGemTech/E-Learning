@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>Changed or Not!</h1>
+<h1>Hey! Man</h1>
 
 <?php
 echo "This is Hey!";
