@@ -1,1 +1,1 @@
-<img src="{{asset('logo/Image.jpeg')}}" width="100px"
+<img src="https://pratikmore.com/assets/img/logo.png" width="100px"
