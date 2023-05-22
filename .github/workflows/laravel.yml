@@ -9,10 +9,6 @@ on:
 jobs:
   laravel-tests:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        sudo: true
 
     steps:
       - uses: actions/checkout@v3
@@ -34,8 +30,8 @@ jobs:
       - name: Directory Permissions
         run: chmod -R 777 storage bootstrap/cache
 
-      - name: Start XAMPP
-        run: /opt/lampp/lampp start
+      - name: Start XAMPP MySQL service
+        run: sudo /opt/lampp/lampp startmysql
 
       - name: Wait for MySQL to start
         run: sleep 10s
