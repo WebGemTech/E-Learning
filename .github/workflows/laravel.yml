@@ -32,7 +32,7 @@ jobs:
 
       - name: Start XAMPP MySQL service
         run: |
-          /opt/lampp/lampp startmysql
+          /path/to/xampp/mysql start
           echo "XAMPP MySQL service started successfully"
 
       - name: Wait for MySQL to start
@@ -40,7 +40,7 @@ jobs:
 
       - name: Create Database
         run: |
-          /opt/lampp/bin/mysql -h 127.0.0.1 -P 3306 -u root -e "CREATE DATABASE IF NOT EXISTS webgemapp2.0;"
+          D:\Xampp\mysql\bin\mysql -h 127.0.0.1 -P 3306 -u root -e "CREATE DATABASE IF NOT EXISTS webgemapp2.0;"
           echo "Database created successfully"
 
       - name: Execute tests (Unit and Feature tests) via PHPUnit
