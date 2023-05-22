@@ -31,13 +31,13 @@ jobs:
         run: chmod -R 777 storage bootstrap/cache
 
       - name: Start MySQL service
-        run: D:\Xampp\mysql\bin\mysql
+        run: sudo service mysql start
 
       - name: Check MySQL service status
-        run: D:\Xampp\mysql\bin\mysqladmin version
+        run: sudo service mysql status
 
       - name: Create Database
-        run: D:\Xampp\mysql\bin\mysql -u root -e "CREATE DATABASE IF NOT EXISTS webgemapp2.0;"
+        run: sudo mysql -u root -e "CREATE DATABASE IF NOT EXISTS webgemapp2.0;"
 
       - name: Execute tests (Unit and Feature tests) via PHPUnit
         env:
