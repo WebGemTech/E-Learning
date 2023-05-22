@@ -30,13 +30,13 @@ jobs:
       - name: Directory Permissions
         run: chmod -R 777 storage bootstrap/cache
         
-      - name: Check MySQL service status
-        run: sudo service mysql status
         
       - name: Start MySQL service
         run: sudo service mysql start
 
-
+      - name: Check MySQL service status
+        run: sudo service mysql status
+      
       - name: Create Database
         run: mysql -u root -e "CREATE DATABASE IF NOT EXISTS webgemapp2.0;"
 
