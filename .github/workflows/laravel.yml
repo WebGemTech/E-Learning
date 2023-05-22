@@ -31,13 +31,17 @@ jobs:
         run: chmod -R 777 storage bootstrap/cache
 
       - name: Start XAMPP MySQL service
-        run: sudo /opt/lampp/lampp startmysql
+        run: |
+          /opt/lampp/lampp startmysql
+          echo "XAMPP MySQL service started successfully"
 
       - name: Wait for MySQL to start
         run: sleep 10s
 
       - name: Create Database
-        run: /opt/lampp/bin/mysql -h 127.0.0.1 -P 3306 -u root -e "CREATE DATABASE IF NOT EXISTS webgemapp2.0;"
+        run: |
+          /opt/lampp/bin/mysql -h 127.0.0.1 -P 3306 -u root -e "CREATE DATABASE IF NOT EXISTS webgemapp2.0;"
+          echo "Database created successfully"
 
       - name: Execute tests (Unit and Feature tests) via PHPUnit
         env:
