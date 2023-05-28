@@ -29,6 +29,13 @@
         <!-- App Css-->
         <link href="{{ asset('backend/assets/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
 
+        <!-- Back function Disable -->
+        <script type="text/javascript">
+        function preventBack() { window.history.forward(); }
+        setTimeout("preventBack()", 0);
+        window.onunload = function () { null };
+        </script>
+
     </head>
 
     <body data-topbar="dark">
