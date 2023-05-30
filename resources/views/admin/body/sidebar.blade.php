@@ -9,10 +9,10 @@
     <!-- User details -->
     <div class="user-profile text-center mt-3">
         <div class="">
-            <img src="assets/images/users/avatar-1.jpg" alt="" class="avatar-md rounded-circle">
+            <img src="https://pratikmore.com/assets/img/logo.png" alt="" class="avatar-md rounded-circle">
         </div>
         <div class="mt-3">
-            <h4 class="font-size-16 mb-1">Yoon Hye-Jin</h4>
+            <h4 class="font-size-16 mb-1">Pratik More</h4>
             <span class="text-muted"><i class="ri-record-circle-line align-middle font-size-14 text-success"></i> Online</span>
         </div>
     </div>
@@ -24,18 +24,18 @@
             <li class="menu-title">Menu</li>
 
             <li>
-                <a href="index.html" class="waves-effect">
+                <a href="http://localhost:8000/dashboard" class="waves-effect">
                     <i class="ri-dashboard-line"></i><span class="badge rounded-pill bg-success float-end">3</span>
                     <span>Dashboard</span>
                 </a>
             </li>
 
-            <li>
+            <!--<li>
                 <a href="calendar.html" class=" waves-effect">
                     <i class="ri-calendar-2-line"></i>
                     <span>Calendar</span>
                 </a>
-            </li>
+            </li> -->
 
             <li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
@@ -48,7 +48,7 @@
                 </ul>
             </li>
 
-            <li>
+            <!--<li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                     <i class="ri-layout-3-line"></i>
                     <span>Layouts</span>
@@ -149,9 +149,9 @@
                     <li><a href="advance-rating.html">Rating</a></li>
                     <li><a href="advance-notifications.html">Notifications</a></li>
                 </ul>
-            </li>
+            </li> -->
 
-            <li>
+            <!--<li>
                 <a href="javascript: void(0);" class="waves-effect">
                     <i class="ri-eraser-fill"></i>
                     <span class="badge rounded-pill bg-danger float-end">8</span>
@@ -234,7 +234,7 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
+            </li> -->
 
         </ul>
     </div>
