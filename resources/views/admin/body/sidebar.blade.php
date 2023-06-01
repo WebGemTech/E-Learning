@@ -48,6 +48,18 @@
                 </ul>
             </li>
 
+            <li>
+                <a href="javascript: void(0);" class="has-arrow waves-effect">
+                    <i class="ri-mail-send-line"></i>
+                    <span>Modify Portfolio</span>
+                </a>
+                <ul class="sub-menu" aria-expanded="false">
+                    <li><a href="email-inbox.html">Home</a></li>
+                    <li><a href="email-read.html">Navigation</a></li>
+                    <li><a href="email-read.html">Footer</a></li>
+                </ul>
+            </li>
+
             <!--<li>
                 <a href="javascript: void(0);" class="has-arrow waves-effect">
                     <i class="ri-layout-3-line"></i>
