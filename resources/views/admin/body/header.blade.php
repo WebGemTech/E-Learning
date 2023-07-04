@@ -374,7 +374,7 @@
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <img class="rounded-circle header-profile-user" src="https://pratikmore.com/assets/img/logo.png"
                         alt="Header Avatar">
-                    <span class="d-none d-xl-inline-block ms-1">{{ $editData->name }}</span>
+                    <span class="d-none d-xl-inline-block ms-1">E-Learning</span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">

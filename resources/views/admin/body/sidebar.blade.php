@@ -12,7 +12,7 @@
             <img src="https://pratikmore.com/assets/img/logo.png" alt="" class="avatar-md rounded-circle">
         </div>
         <div class="mt-3">
-            <h4 class="font-size-16 mb-1">Pratik More</h4>
+            <h4 class="font-size-16 mb-1">E-Learning</h4>
             <span class="text-muted"><i class="ri-record-circle-line align-middle font-size-14 text-success"></i> Online</span>
         </div>
     </div>
