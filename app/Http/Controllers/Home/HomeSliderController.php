@@ -36,7 +36,7 @@ class HomeSliderController extends Controller
             ]);
 
             $notification = array(
-                'message' => 'Home Slide Update with Image Successfully', 
+                'message' => 'Home Slide Updated with Image Successfully', 
                 'alert-type' => 'success'
             );
     
@@ -51,7 +51,7 @@ class HomeSliderController extends Controller
             ]);
 
             $notification = array(
-                'message' => 'Home Slide Update without Image Successfully', 
+                'message' => 'Home Slide Updated without Image Successfully', 
                 'alert-type' => 'success'
             );
     
