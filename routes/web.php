@@ -64,6 +64,8 @@ Route::controller(AboutController::class)->group(function(){
     Route::get('/contact', 'Contact')->name('contact.me');
 
     Route::post('/store/message', 'StoreMessage')->name('store.message');
+    Route::get('/contact/message', 'ContactMessage')->name('contact.message');   
+    Route::get('/delete/message/{id}', 'DeleteMessage')->name('delete.message');  
     
 });
 
