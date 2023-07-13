@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController; 
 use App\Http\Controllers\Home\HomeSliderController;
 use App\Http\Controllers\Home\AboutController;
+use App\Http\Controllers\Home\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -56,6 +57,14 @@ Route::controller(AboutController::class)->group(function(){
     Route::post('/update/about','UpdateAbout')->name('update.about');
     Route::get('/about/homeabout', 'HomeAbout')->name('home.about');
 
+});
+
+ // Contact All Route 
+ Route::controller(ContactController::class)->group(function () {
+    Route::get('/contact', 'Contact')->name('contact.me');
+
+    Route::post('/store/message', 'StoreMessage')->name('store.message');
+    
 });
 
 

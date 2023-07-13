@@ -27,7 +27,7 @@
                                                     <li><a href="blog-details.html">News Details</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="contact.html">contact me</a></li>
+                                            <li><a href="{{ route('contact.me') }}">contact me</a></li>
                                         </ul>
                                     </div>
                                     <div class="header__btn d-none d-md-block">
