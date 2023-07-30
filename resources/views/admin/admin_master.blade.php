@@ -96,7 +96,7 @@
                         <img src="assets/images/layouts/layout-1.jpg" class="img-fluid img-thumbnail" alt="layout-1">
                     </div>
 
-                    <div class="form-check form-switch mb-3">
+                    <<div class="form-check form-switch mb-3">
                         <input class="form-check-input theme-choice" type="checkbox" id="light-mode-switch" checked>
                         <label class="form-check-label" for="light-mode-switch">Light Mode</label>
                     </div>
