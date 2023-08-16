@@ -107,7 +107,6 @@ class AboutController extends Controller
 
         return redirect()->back()->with($notification);
 
-
      }// End Method 
 
 }
