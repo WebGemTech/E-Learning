@@ -60,6 +60,7 @@
                 </a>
                 <ul class="sub-menu" aria-expanded="false">
                     <li><a href="{{ route('about.page') }}">About Page</a></li>
+                    <li><a href="{{ route('about.multi.image') }}">About Multi Image</a></li>
                     <!-- <li><a href="email-read.html">Read Email</a></li> -->
                 </ul>
             </li>
